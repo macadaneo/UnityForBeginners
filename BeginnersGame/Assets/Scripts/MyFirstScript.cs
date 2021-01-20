@@ -13,7 +13,7 @@ public class MyFirstScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        number = 1;
+       /* number = 1;
         myName = "Dane";
         print("Hello " + myName + ", your number is " + number);
 
@@ -28,7 +28,12 @@ public class MyFirstScript : MonoBehaviour
         myThirdMethod("Wilhelm", "Soelberg");
 
         int myAge = calculateAge(1997);
-        print("Your age is " + myAge);
+        print("Your age is " + myAge);*/
+
+       Bike b1 = new Bike("My First Bike");
+       b1.accelerate();
+       b1.accelerate();
+
     }
 
     // Update is called once per frame
